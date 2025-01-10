@@ -85,7 +85,7 @@ main {
 
 .team-image {
     display: block;
-    max-width: 50%; /* Reduce el ancho de la imagen a la mitad */
+    max-width: 30%; /* Reduce el ancho de la imagen a la mitad */
     height: auto;
     margin: 20px auto; /* Centra la imagen horizontalmente */
     border-radius: 8px;
