@@ -1,0 +1,128 @@
+/* Diferencia entre clase e ID:
+   - Clase (class): Se utiliza para aplicar estilos a múltiples elementos que comparten un diseño similar.
+   - ID: Se usa para aplicar estilos únicos a un solo elemento. */
+
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main-title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Menú de navegación */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+.section-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Botones */
+.cta-button {
+    background-color: #0a0a23;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffcc00;
+    color: #0a0a23;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #0a0a23;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Ventana flotante (dialog) */
+dialog {
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+dialog h3 {
+    margin-top: 0;
+}
+
+dialog button {
+    margin-top: 20px;
+}
