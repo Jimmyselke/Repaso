@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fútbol Club Barcelona</title>
+    <title>FC Barcelona - Més que un club</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header principal -->
     <header>
-        <h1 id="main-title">Bienvenidos a la Página Oficial del Fútbol Club Barcelona</h1>
+        <img src="fc-barcelona-logo.png" alt="Escudo del FC Barcelona" id="team-logo">
+        <h1 id="main-title">FC Barcelona</h1>
+        <p id="club-motto">Més que un club</p>
         <nav>
             <ul class="nav-menu">
-                <li><a href="#team-info">Historia</a></li>
+                <li><a href="#about">Historia</a></li>
                 <li><a href="#achievements">Logros</a></li>
+                <li><a href="#news">Noticias</a></li>
                 <li><a href="#curiosities">Curiosidades</a></li>
             </ul>
         </nav>
@@ -21,37 +24,47 @@
 
     <!-- Sección principal de contenido -->
     <main>
-        <section id="team-info" class="section-card">
-            <h2>Historia del Club</h2>
-            <p class="text">El Fútbol Club Barcelona, conocido como Barça, fue fundado en 1899 y es uno de los clubes más exitosos y populares del mundo. Su lema "Més que un club" refleja su importancia cultural y social en Cataluña.</p>
-            <img src="barcateam.jpg" alt="Equipo del FC Barcelona" class="team-image">
+        <!-- Historia del club -->
+        <section id="about" class="section-card">
+            <h2>Historia del FC Barcelona</h2>
+            <p class="text">Fundado en 1899, el FC Barcelona es un club icónico con una rica historia de éxitos y valores. Ha sido hogar de algunos de los mejores jugadores del mundo, como Johan Cruyff, Lionel Messi, y muchos más.</p>
+            <img src="camp-nou.jpg" alt="Camp Nou" class="team-image">
         </section>
 
+        <!-- Logros destacados -->
         <section id="achievements" class="section-card">
             <h2>Logros Destacados</h2>
             <ul>
-                <li class="text">5 veces campeón de la Liga de Campeones de la UEFA.</li>
-                <li class="text">26 títulos de La Liga.</li>
-                <li class="text">31 títulos de la Copa del Rey.</li>
+                <li class="text">5 títulos de la Liga de Campeones de la UEFA.</li>
+                <li class="text">26 títulos de LaLiga.</li>
+                <li class="text">31 Copas del Rey.</li>
             </ul>
         </section>
 
+        <!-- Noticias -->
+        <section id="news" class="section-card">
+            <h2>Noticias Recientes</h2>
+            <p class="text">El FC Barcelona se prepara para su próximo partido en LaLiga contra el Real Madrid. ¡No te lo pierdas!</p>
+            <button class="cta-button">Ver Más Noticias</button>
+        </section>
+
+        <!-- Curiosidades -->
         <section id="curiosities" class="section-card">
-            <h2>Curiosidades</h2>
-            <p class="text">¿Sabías que el FC Barcelona es propiedad de sus socios y no de un único propietario? Además, el Camp Nou es el estadio más grande de Europa con capacidad para más de 99,000 espectadores.</p>
+            <h2>Curiosidades del Club</h2>
+            <p class="text">¿Sabías que el FC Barcelona es propiedad de sus socios y no de una empresa privada? Actualmente cuenta con más de 140,000 socios.</p>
             <button id="more-info-btn" class="cta-button">Saber más</button>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p class="text">&copy; 2025 Fútbol Club Barcelona. Todos los derechos reservados.</p>
+        <p class="text">&copy; 2025 FC Barcelona. Todos los derechos reservados.</p>
     </footer>
 
     <!-- Ventana flotante (dialog) -->
     <dialog id="info-dialog">
-        <h3>Información Adicional</h3>
-        <p>El FC Barcelona ha sido hogar de algunos de los mejores futbolistas de la historia, incluyendo Lionel Messi, Johan Cruyff y Ronaldinho.</p>
+        <h3>Curiosidad del FC Barcelona</h3>
+        <p>El lema \"Més que un club\" representa el compromiso del Barça con la sociedad y su influencia más allá del fútbol.</p>
         <button id="close-dialog-btn" class="cta-button">Cerrar</button>
     </dialog>
 
@@ -71,3 +84,4 @@
     </script>
 </body>
 </html>
+
